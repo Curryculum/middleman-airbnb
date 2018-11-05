@@ -1,0 +1,63 @@
+.flat-banner {
+  color: white;
+  text-align: center;
+  height: calc(40vh);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+
+.img-flat {
+  width: 80px;
+
+}
+
+.flat-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flat-avatar {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.flat-avatar-circle {
+
+}
+
+.flat-name {
+  padding: 30px;
+  margin: 15px;
+  p {
+    font-weight: lighter;
+    color: grey;
+  }
+}
+
+.flat-tab {
+}
+
+.flat-form-name .form-control {
+  margin: 10px;
+}
+
+.flat-form-select {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.flat-btn-large {
+  width: 100% ;
+
+}
+
